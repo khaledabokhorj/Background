@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("/images/photo_2023-07-19_14-29-51.jpg");
+  background-size: cover;
+  color: white;
+  font-family: sans-serif;
+}
+.info:first-child {
+  background-color: black;
+  color: white;
+  margin-bottom: -20px;
+  width: 725px;
+}
+.info:first-child :last-child {
+  color: #eee;
+}
+.info:first-child h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+.info:first-child p {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.info:first-child p:nth-child(2) {
+  font-size: 21px;
+}
+.info:first-child p:nth-child(3) {
+  margin-top: 0;
+}
+.info {
+  margin: 20px auto;
+  background-color: white;
+  color: black;
+  width: 700px;
+  border: 2px dashed black;
+}
+.info h2 {
+  text-align: left;
+  padding: 5px 10px;
+  font-size: 22px;
+}
+.info p {
+  margin-left: 40px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.info .color {
+  color: #a0cbd2;
+}
+.there .color {
+  margin-top: -10px;
+}
+.four p {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.five p:nth-last-child(2) {
+  margin-top: 25px;
+}
+.five p:last-child {
+  margin-top: -7px;
+}
+.sorthand {
+  width: 700px;
+  margin: 20px auto;
+}
+.sorthand p {
+  margin-top: 30px;
+  margin-bottom: -10px;
+  font-size: 14px;
+}
+.seven p:last-child {
+  margin-top: -7px;
+}
